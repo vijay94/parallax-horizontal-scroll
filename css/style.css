@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+section {
+	background: #43cee0;
+	cursor: -webkit-grab;
+	cursor: grab;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+section img {
+	height: 100vh;
+	left: 0;
+	margin-left: -185px;
+	pointer-events: none;
+	position: absolute;
+	transition: left 2s ease;
+	-webkit-transform: translateZ(0);
+					transform: translateZ(0);
+}
+section button {
+	background: white;
+	border: none;
+	border-radius: 2rem;
+	bottom: 1rem;
+	left: 1rem;
+	color: #43cee0;
+	font-weight: 700;
+	height: 2rem;
+	width: 2rem;
+	position: absolute;
+}
+section button:last-of-type {
+	left: auto;
+	right: 1rem;
+}
+
+.alt {
+	height: 896px;
+	width: 414px;
+}
+
+#el_swap {
+	background-color: #fc8eab;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	flex: 0 0 auto;
+	margin: 1rem auto;
+	padding: 0.75rem;
+	width: 375px;
+}
